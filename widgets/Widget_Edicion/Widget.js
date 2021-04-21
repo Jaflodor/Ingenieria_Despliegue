@@ -13,7 +13,7 @@ define(["dojo/_base/lang", "dojo/ready", "dojo/parser", "dojo/_base/array", 'doj
         postCreate: function postCreate() {
             this.inherited(arguments);
             mapa = this.map;
-            console.log(mapa);
+            
         },
 
         startup: function startup() {
@@ -109,11 +109,7 @@ define(["dojo/_base/lang", "dojo/ready", "dojo/parser", "dojo/_base/array", 'doj
 
         onClose: function onClose() {
 
-            // mapa.removeLayer(capaCableado)
-            // mapa.removeLayer("https://localhost:6443/arcgis/rest/services/Proyecto/ServicioCableado/FeatureServer/3")
-            // mapa.removeLayer(capaConductos)
-            // mapa.removeLayer(capaDepositos)
-            // mapa.removeLayer(capaEmpalmes)
+            
 
 
         }
